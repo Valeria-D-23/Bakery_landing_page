@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bread & Buns Bakery</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Bread & Buns</a>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!--*NAV ITEMS-->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <!--*DROPDOWN-->
+          <div class="btn-group">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              --See our assortiment--
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="bread" href="#">Bread</a></li>
+              <li><a class="buns" href="#">Buns</a></li>
+              <li><a class="pies-cakes" href="#">Pies & Cakes</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container main">
+      <h1 class="display-1">BREAD & BUNS</h1>
+      <p class="year display-6">Baking Goods Since 1851</p>
+      <p class="intro-p lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae assumenda voluptates quisquam consectetur expedita quibusdam sit cum, velit reiciendis repellat reprehenderit aperiam? Aspernatur excepturi, vel ut fugiat tenetur est impedit debitis assumenda explicabo praesentium natus nobis sapiente suscipit voluptatum vitae quos ipsa ducimus! Earum, blanditiis?</p>
+    </div>
+    <div class="container img">
+    <img src="https://dummyimage.com/200x200/000/fff.png&text=bread" class="rounded float-start img-fluid" alt="img-1">
+    <img src="https://dummyimage.com/200x200/000/fff.png&text=bread" class="rounded mx-auto d-block img-fluid" alt="img-2">
+    <img src="https://dummyimage.com/200x200/000/fff.png&text=bread" class="rounded float-end img-fluid" alt="img-3">
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
